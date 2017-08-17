@@ -156,10 +156,6 @@ ul {
     transition: 0.5s
 }
 
-.section.initing {
-    display: none
-}
-
 .section.leaving {
     background-color: #9f3
 }
@@ -174,7 +170,7 @@ ul {
 }
 
 .experience {
-    width:800px;
+    width:650px;
     margin: 0 auto;
     font-size: 1em;
     color:#66716f;
@@ -213,120 +209,6 @@ ul {
 
 .row:after {
     clear: both
-}
-
-.col-1 {
-    width: 8.33333%;
-    float: left
-}
-
-.col-2 {
-    width: 16.66667%;
-    float: left
-}
-
-.col-3 {
-    width: 25%;
-    float: left
-}
-
-.col-4 {
-    width: 33.33333%;
-    float: left
-}
-
-.col-5 {
-    width: 41.66667%;
-    float: left
-}
-
-.col-6 {
-    width: 50%;
-    float: left
-}
-
-.col-7 {
-    width: 58.33333%;
-    float: left
-}
-
-.col-8 {
-    width: 66.66667%;
-    float: left
-}
-
-.col-9 {
-    width: 75%;
-    float: left
-}
-
-.col-10 {
-    width: 83.33333%;
-    float: left
-}
-
-.col-11 {
-    width: 91.66667%;
-    float: left
-}
-
-.col-12 {
-    width: 100%;
-    float: left
-}
-
-@media screen and (max-width: 760px) {
-    .col-1 {
-        width: 100%
-    }
-
-    .col-2 {
-        width: 100%
-    }
-
-    .col-3 {
-        width: 100%
-    }
-
-    .col-4 {
-        width: 100%
-    }
-
-    .col-5 {
-        width: 100%
-    }
-
-    .col-6 {
-        width: 100%
-    }
-
-    .col-7 {
-        width: 100%
-    }
-
-    .col-8 {
-        width: 100%
-    }
-
-    .col-9 {
-        width: 100%
-    }
-
-    .col-10 {
-        width: 100%
-    }
-
-    .col-11 {
-        width: 100%
-    }
-
-    .col-12 {
-        width: 100%
-    }
-
-    #pp-nav {
-        display: none
-    }
 }
 
 #contact-panel {
@@ -396,26 +278,11 @@ ul {
     text-indent: 0
 }
 
-#footer-follow {
-    margin: 0 auto;
-    width: 220px
+@media screen and (max-width: 760px) {
+    #pp-nav {
+        display: none;
+    }
 }
-
-.footer-follow-element {
-    width: 32px;
-    height: 32px;
-    background-image: url("../img/social.png");
-    background-size: 160px 60px;
-    transition: 1s;
-    display: inline-block;
-    border-bottom: none
-}
-
-.footer-follow-element:hover {
-    background-color: #DB6968;
-    border-radius: 50%
-}
-
 .mobile * {
     text-shadow: none !important
 }
@@ -476,10 +343,9 @@ ul {
     padding: 50px 10px
 }
 
-.mobile #profession.section.center {
-    text-align: left
+.mobile .experience {
+    width: 100%;
 }
-
-.mobile #project.section {
-    text-align: center
+.mobile .course {
+    width: 100%;
 }

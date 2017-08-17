@@ -6,8 +6,8 @@ window.mobilecheck = function() {
 
 $(document).ready(function() {
     if (mobilecheck()) {
-        $('html').addClass('mobile');
-    } else {
+        $('body').addClass('mobile');
+    } 
         var en = ['Home', 'Projects', 'Professions', 'Education',
                 'Internship', 'Contact Me'];
         var cn = ['首页', '项目', '技能', '教育', '工作', '联系'];
@@ -31,5 +31,5 @@ $(document).ready(function() {
             }
         });
         $('.initing').removeClass('initing');
-    }
+    
 });
